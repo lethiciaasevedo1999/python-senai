@@ -35,14 +35,12 @@ elif salarioAtual >= 2000.00 and salarioAtual <= 2999.99:
           f"Porcentagem do reajuste: 15% \n"
           f"Valor em R$: {round(ajuste)}\n"
           f"Salário final: {round(salarioAtual + ajuste)}R$" )
-    
 elif salarioAtual >= 3000.00 and salarioAtual <= 4999.99:
     ajuste = salarioAtual * (10/100)
     print(f"Salário atual: {salarioAtual} \n"
           f"Porcentagem do reajuste: 10% \n"
           f"Valor em R$: {round(ajuste)}\n"
-          f"Salário final: {round(salarioAtual + ajuste)}R$" )
-    
+          f"Salário final: {round(salarioAtual + ajuste)}R$" ) 
 else:
     ajuste = salarioAtual * (5/100)
     print(f"Salário atual: {salarioAtual} \n"
