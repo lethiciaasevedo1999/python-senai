@@ -57,6 +57,6 @@ elif nivel == NivelIV and dia <= 10 or dia == 10:
     desconto = 3.89 * NivelIV/100
     print("Você está no nível IV")
     print(f"O seu desconto vai ser de R${desconto:.2f} e o valor da sua mensalidade ficará R${NivelIII - desconto:.2f}")
-
-
+else:
+    print(f"Valor da mensalidade R$: {nivel} ")
 
