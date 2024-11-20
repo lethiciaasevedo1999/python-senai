@@ -5,6 +5,6 @@ num2 = int(input("Digite outro número: "))
 num3 = int(input("Digite outro número: "))
 
 numeros = [num1, num2, num3]
-numeroMaior = numeros.sort()
+numeroMaior = max(numeros)
 
-print(f"Número maior: {numeroMaior[0]}")
+print(f"Número maior: {numeroMaior}")
