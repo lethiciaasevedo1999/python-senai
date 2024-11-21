@@ -16,3 +16,12 @@ class Carro:
 #Instanciar significa o objeto em si, então aqui, estou colocando o carro em ação
 car = Carro("Fusca", "Azul")
 car.mostrarInfo()
+
+print("*************************************************************")
+
+#Adicionando um carro pelo usuário
+nome = input("Digite o modelo do Carro: ")
+cor = input("Digite a cor do carro: ")
+
+CarEletric = Carro(nome, cor)
+CarEletric.mostrarInfo()
