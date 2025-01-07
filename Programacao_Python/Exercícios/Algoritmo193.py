@@ -5,6 +5,7 @@ Quantos: 4              Saída: 2 4 6 8'''
 
 limite = int(input("Digite o número limite: "))
 
+
 for i in range (0, limite + 1):
     if i % 2 == 0:
         print(i)
