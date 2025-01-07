@@ -3,7 +3,7 @@ do sexo masculino e tiver mais de 21 anos.'''
 
 
 
-for i in range(1, 21):
+for i in range(1, 4):
     nome = (input("Digite o seu nome: "))
     idade = int(input("Digite sua idade: "))
     print("Qual o seu sexo? ")
