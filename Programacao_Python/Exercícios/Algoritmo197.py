@@ -18,3 +18,5 @@ while contador < numeros:
     numero += 2
 
 print(soma)
+
+#Exercício ainda não resolvido por completo
